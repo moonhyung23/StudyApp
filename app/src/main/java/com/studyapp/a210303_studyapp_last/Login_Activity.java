@@ -230,7 +230,6 @@ public class Login_Activity extends AppCompatActivity implements View.OnClickLis
 
             case R.id.btn_create_account://회원가입 버튼
                 SharedClass.remove_key(getApplicationContext(), "37991110", SharedClass.PREFERENCES_Name_UserData);
-
                 Intent intent2 = new Intent(getApplicationContext(), Create_User_Account_Activity.class);
                 startActivity(intent2);
                 finish();
