@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.studyapp.a210303_studyapp_last">
+
+    <!-- 카메라, 갤러리 권한 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- 인터넷 사용 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_studyapp_logo_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_studyapp_logo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.210303_studyApp_Last">
+      <!--  &lt;!&ndash;내 구글 admob id 입력&ndash;&gt;
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5839269239097684~6325748311" />-->
+
+        <activity android:name="com.studyapp.a210303_studyapp_last.Create_Naver_Account_Activity"></activity>
+        <activity android:name="com.studyapp.a210303_studyapp_last.Edit_UserData_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Rank_Activity" />
+        <activity
+            android:name="com.studyapp.a210303_studyapp_last.Message_Aciticity"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified" />
+
+        <activity android:name="com.studyapp.a210303_studyapp_last.Check_MyStudyTime_Actvity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Receive_Choice_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Receive_Application_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Send_Letter_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Send_Application_StudyFriend_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.MyStudyRoom_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Create_Room_StudyFriend_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Study_Room_infor_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.All_StudyRoom_Activity" /> <!-- 다이얼로그로 사용할 엑티비티 -->
+        <activity android:name="com.studyapp.a210303_studyapp_last.Create_StudyGoal_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Measure_StudyTime_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.MainActivity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.StudyFriend_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Create_User_Account_Activity" />
+        <activity android:name="com.studyapp.a210303_studyapp_last.Menu_Activity" />
+        <activity
+            android:name="com.studyapp.a210303_studyapp_last.Login_Activity"
+            android:windowSoftInputMode="adjustPan|adjustUnspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+    </application>
+
+</manifest>
