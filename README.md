@@ -4,7 +4,7 @@
 - 안드로이드 기반이며 공부친구를 구해서 같이 공부하고 공부한 시간을 측정해주는 앱입니다.
 - 평소에 공부시간 측정하는 앱을 많이 사용해봐서 공부삼아 앱을 만들었습니다.
 - 공부삼아 구글플레이스토어에 앱을 출시해보았습니다.  [링크](https://play.google.com/store/apps/details?id=com.studyapp.a210303_studyapp_last)
-- 해당 작품의 기능 시연 영상은 [여기](https://www.youtube.com/playlist?list=PLWDhN6G_D-HrjNrGFwFYe_bEAn-2wtHg6)를 클릭해주세요
+- 해당 작품의 기능 시연 영상은 [여기](https://www.youtube.com/watch?v=xUh72c0M_tw&list=PLWDhN6G_D-Ho0r1tidSg0-phGyebFdtiQ&index=8)를 클릭해주세요
   
   ## 🖼️ 스크린 샷
 |로그인화면|메인화면|
